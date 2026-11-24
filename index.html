@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание №2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="site-header">
+    <img class="logo" src="image.png" alt="Логотип сайта" width="70" height="70">
+    <h1 class="site-title">Практическая работа №2</h1>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="#check">Ссылки</a></li>
+            <li><a href="#table">Таблица</a></li>
+            <li><a href="#form">Форма</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="content">
+
+    <h2>Задание №1</h2>
+
+    
+
+    <ul>
+        <li>
+            <a href="http://www.kubsu.ru/">Сайт Кубанского государственного университета</a>
+        </li>
+
+        <li>
+            <a href="https://www.kubsu.ru/">Кубанский государственный университет</a>
+        </li>
+
+        <li>
+            <a href="https://www.kubsu.ru/">
+                <img src="https://www.kubsu.ru/sites/default/files/news/photo_5352690133687720795_y_2.jpg"
+                     alt="Изображение КубГУ" width="500">
+            </a>
+        </li>
+
+        <li>
+            <a href="/news.html">Внутренняя страница сайта</a>
+        </li>
+
+        <li>
+            <a href="/">Главная страница</a>
+        </li>
+
+        <li>
+            <a href="#check">Перейти к нужному фрагменту</a>
+        </li>
+
+        <li>
+            <a href="?sort=date&amp;category=new&amp;page=2">
+                URL с тремя параметрами
+            </a>
+        </li>
+
+        <li>
+            <a href="?id=15">URL с параметром id</a>
+        </li>
+
+        <li>
+            <a href="./index.html">Страница из текущего каталога</a>
+        </li>
+
+        <li>
+            <a href="about/index.html">Страница из каталога about</a>
+        </li>
+
+        <li>
+            <a href="../index.html">Страница на один каталог выше</a>
+        </li>
+
+        <li>
+            <a href="../../index.html">Страница на два каталога выше</a>
+        </li>
+
+        <li>
+            Я являюсь студентом второго курса
+            <a href="https://www.kubsu.ru/">
+                Кубанского государственного университета
+            </a>
+            и учусь на факультете компьютерных технологий и прикладной математики.
+        </li>
+
+        <li>
+            <a href="https://ru.wikipedia.org/wiki/Кубанский_государственный_университет#История">
+                История Кубанского государственного университета
+            </a>
+        </li>
+
+        <li>
+            <img src="https://static.tildacdn.com/tild3737-3763-4536-a437-336335313832/105__.png"
+                 alt="Изображение с областями"
+                 width="400"
+                 height="200"
+                 usemap="#myMap">
+
+            <map name="myMap">
+                <area shape="rect"
+                      coords="0,0,200,200"
+                      href="https://www.kubsu.ru/"
+                      alt="КубГУ">
+
+                <area shape="circle"
+                      coords="300,100,60"
+                      href="https://www.kubsu.ru/ru/fktipm"
+                      alt="Факультет КТиПМ">
+            </map>
+        </li>
+
+        <li>
+            <a href="">Пустая ссылка</a>
+        </li>
+
+        <li>
+            <a>Ссылка без адреса</a>
+        </li>
+
+        <li>
+            <a href="https://www.kubsu.ru/" rel="nofollow">
+                Ссылка с атрибутом nofollow
+            </a>
+        </li>
+
+        <li>
+            <!--noindex-->
+            <a href="https://www.kubsu.ru/">
+                Ссылка с запретом индексации
+            </a>
+            <!--/noindex-->
+        </li>
+
+        <li>
+            <ol>
+                <li>
+                    <a href="http://www.kubsu.ru/" title="КубГУ">
+                        Кубанский государственный университет
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.kubsu.ru/ru/fktipm" title="Факультет">
+                        Факультет компьютерных технологий и прикладной математики
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.kubsu.ru/ru/studlife" title="Студенческая жизнь">
+                        Студенческая жизнь
+                    </a>
+                </li>
+            </ol>
+        </li>
+
+        <li>
+            <a href="ftp://user:password@example.com/kubsu.zip">
+                Файл на FTP-сервере
+            </a>
+        </li>
+    </ul>
+
+    <p id="check">Это нужный фрагмент страницы.</p>
+
+    
+
+    <h2 id="table">Таблица</h2>
+
+    <table>
+        <tr>
+            <th>Дисциплина</th>
+            <th>Преподаватель</th>
+            <th>Аудитория</th>
+            <th>Оценка</th>
+        </tr>
+        <tr>
+            <td>Веб-разработка</td>
+            <td>Синица С.А.</td>
+            <td>3-15</td>
+            <td>отлично</td>
+        </tr>
+        <tr>
+            <td>Базы данных</td>
+            <td>Иванов И.И.</td>
+            <td>2-08</td>
+            <td>хорошо</td>
+        </tr>
+        <tr>
+            <td colspan="4">Итоги за первый семестр</td>
+        </tr>
+        <tr>
+            <td>Операционные системы</td>
+            <td>Петров П.П.</td>
+            <td colspan="2">дисциплина не сдана</td>
+        </tr>
+        <tr>
+            <td>Алгоритмы и структуры данных</td>
+            <td>Сидоров С.С.</td>
+            <td>4-12</td>
+            <td>отлично</td>
+        </tr>
+    </table>
+
+    
+
+    <h2 id="form">Форма</h2>
+
+    <form method="POST" action="/">
+
+        <label>
+            ФИО:<br>
+            <input type="text"
+                   name="fio"
+                   placeholder="Введите ФИО">
+        </label>
+
+        <br><br>
+
+        <label>
+            Телефон:<br>
+            <input type="tel"
+                   name="phone"
+                   placeholder="Введите номер телефона">
+        </label>
+
+        <br><br>
+
+        <label>
+            Электронная почта:<br>
+            <input type="email"
+                   name="email"
+                   placeholder="Введите email">
+        </label>
+
+        <br><br>
+
+        <label>
+            Дата рождения:<br>
+            <input type="date" name="birthdate">
+        </label>
+
+        <br><br>
+
+        Выберите пол:<br>
+
+        <label>
+            <input type="radio"
+                   name="gender"
+                   value="Мужской"
+                   checked>
+            Мужской
+        </label>
+
+        <label>
+            <input type="radio"
+                   name="gender"
+                   value="Женский">
+            Женский
+        </label>
+
+        <br><br>
+
+        <label>
+            Любимый язык программирования:<br>
+
+            <select name="languages[]" multiple>
+                <option value="Pascal">Pascal</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="PHP">PHP</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Haskel">Haskel</option>
+                <option value="Clojure">Clojure</option>
+                <option value="Prolog">Prolog</option>
+                <option value="Scala">Scala</option>
+            </select>
+        </label>
+
+        <br><br>
+
+        <label>
+            Биография:<br>
+            <textarea name="biography"></textarea>
+        </label>
+
+        <br><br>
+
+        <label>
+            <input type="checkbox"
+                   name="agreement"
+                   checked>
+            Я ознакомлен(а) с контрактом
+        </label>
+
+        <br><br>
+
+        <button type="submit">Сохранить</button>
+
+    </form>
+
+</main>
+
+<footer id="site-footer">
+    <p>Практическая работа №2</p>
+</footer>
+
+</body>
+</html>
